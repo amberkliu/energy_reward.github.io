@@ -1,0 +1,95 @@
+.energy-slider input[type="range"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    /*  slider progress trick  */
+    overflow: hidden;
+    /*border-radius: 16px;*/
+  }
+  
+  /* Track: webkit browsers */
+  .energy-slider input[type="range"]::-webkit-slider-runnable-track {
+    height: 30px;
+    background: #ffffff;
+    /*border-radius: 16px;*/
+  }
+  
+  /* Track: Mozilla Firefox */
+  .energy-slider input[type="range"]::-moz-range-track {
+    height: 15px;
+    background: #ffffff;
+    border-radius: 16px;
+  }
+  
+  /* Thumb: webkit */
+  .energy-slider input[type="range"]::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    height: 40px;
+    width: 10px;
+    background-color: #010101a9;
+    border: none;
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px #6b5;
+  }
+  
+  
+  /* Thumb: Firefox */
+  .energy-slider input[type="range"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #f50;
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px #6b5;
+  }
+
+
+  .original-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+  }
+
+
+  /*=============
+  Aesthetics 
+  =========================*/
+  
+    /*
+  body {
+    font-family: system-ui;
+  }
+  
+  h1 {
+    color: #4b4949; 
+    text-align: center;
+  }
+  
+  .wrapper {
+    color: #4b4949; 
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .range {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    height: 4rem;
+    width: 80%;
+    background: #fff;
+    padding: 0px 10px;
+  }*/
